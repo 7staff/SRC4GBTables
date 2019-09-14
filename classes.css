@@ -1,0 +1,110 @@
+
+#table {
+margin-top: 100px;
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#table td, #table th {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+
+#wrapper {
+    width: 80%;
+    box-shadow: 5px 10px black;
+    border: 2px solid;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin: 0 auto;
+   
+    
+    
+}
+
+
+#table th:nth-child(1){background-color: skyblue; color: whitesmoke;}
+#table th:nth-child(2){background-color: khaki;}
+#table th:nth-child(n+1):nth-child(1){background-color: tomato; color: blue;}
+#table tr:nth-child(n+6):nth-child(odd){background-color: gainsboro;}
+#table td:nth-child(odd){text-align: center;}
+#table tr:nth-child(5):nth-child(odd){background-color: white;}
+
+.imageprof
+{
+    height: 200px;
+    display: block;
+    overflow: hidden;
+    width: 180px;
+}
+
+.infomiddle
+{
+    width: 40%;
+    font-size: 30px;
+    font-family: inherit;
+    margin-top: 10px;
+    text-align: left;
+    display: inline-block;
+    position: absolute;
+    float: left;
+}
+.inforight
+{
+    width: 35%;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    text-align: right;
+    display: inline-block;
+    float: right;
+    
+}
+.infobottomright
+{
+    width: 100%;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    text-align: right;
+    display: inline-block;
+    float: right;
+    
+    
+   
+}
+.leftimage{
+    height: 300px;
+    width: 15%;
+    border: 1px solid black;
+    margin: 10px;
+    display: inline-block;
+    overflow: hidden;
+    object-fit: cover;
+    
+    
+    
+}
+
+#table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+
+}
+hr{
+    width: 50%;
+    
+    
+}
+
+#pass {
+    background-color: gray;
+}
